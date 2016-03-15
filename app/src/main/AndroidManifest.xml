@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.ipmavlutov.metalsensor_2sensors">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ru.ipmavlutov.metalsensor_2sensors.Activities.Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.ipmavlutov.metalsensor_2sensors.DeviceListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name="ru.ipmavlutov.metalsensor_2sensors.Activities.Work"
+            android:label="@string/title_activity_work"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="ru.ipmavlutov.metalsensor_2sensors.Activities.GraphActivity" />
+
+        <receiver android:name="ru.ipmavlutov.metalsensor_2sensors.WidgetInfo"
+            android:label="@string/widget_label"
+            android:icon="@drawable/logo_black_on_white">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="ru.example.android.widget.ACTION_WIDGET_RECEIVER" />
+                <action android:name="ru.example.android.widget.ACTION_STATE_NONE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_info" />
+        </receiver>
+    </application>
+
+</manifest>

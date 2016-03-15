@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MS 2SENS</string>
+    <string name="connecting_to_sensor">Подключение</string>
+    <string name="search_message">Поиск других устройств</string>
+    <string name="title_other_devices">Другие устройства</string>
+    <string name="title_paired_devices">Сопряженные устройства</string>
+    <string name="none_paired">Нет известных устройств</string>
+    <string name="empty_device_name">Новое устройство</string>
+    <string name="none_found">Не найдено</string>
+    <string name="select_device">Выбор устройства</string>
+    <string name="title_activity_work">Metal Sensor 2 SENS</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Для корректной работы приложения необходимо включить Bluetooth. Нажмите на кнопку \"Подключение\" и выберите устройство.</string>
+    <string name="logo">logo</string>
+    <string name="msg_not_connected">Нет подключения</string>
+    <string name="msg_connecting">Подключение</string>
+    <string name="msg_connected">Подключено</string>
+    <string name="get_first_date">С какого</string>
+    <string name="get_second_date">По какое</string>
+    <string name="label_first" />
+    <string name="label_second" />
+    <string name="date_picker">Выбор даты</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="graph_label_button">График</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="status">imageStatus</string>
+    <string name="widget_label">Metal Sensor 2SENS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--
+    First Sensor
+    -->
+    <string name="temperature_text1">Температура №1</string>
+    <string name="temperature_value1" />
+    <string name="signal_text1">Частицы износа №1</string>
+    <string name="signal_value1" />
+    <string name="super_signal_text1">Усиленный сигнал №1</string>
+    <string name="super_signal_value1"> </string>
+    <!--
+    Second Sensor
+    -->
+    <string name="temperature_text2">Температура №2</string>
+    <string name="temperature_value2" />
+    <string name="signal_text2">Частицы износа №2</string>
+    <string name="signal_value2" />
+    <string name="super_signal_text2">Усиленный сигнал №2</string>
+    <string name="super_signal_value2"> </string>
+    <!--
+    Settings
+    -->
+    <string name="edit_text">По умолчанию=96.0</string>
+    <string name="absolute_btn">Принять значение</string>
+    <string name="current_value_label">Текущее значение</string>
+    <string name="current_value" />
+    <string name="absolute_value_label">Абсолютная величина:</string>
+
+
+</resources>

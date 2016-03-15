@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_bluetooth_searching_24dp"
+            android:title="Подключение" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/ic_trending_up_24dp"
+            android:title="График" />
+       <!-- <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />-->
+    </group>
+
+    <item android:title="Дополнительное">
+        <menu>
+            <item
+                android:id="@+id/nav_export"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Эксопртировать Базу Данных" />
+        </menu>
+    </item>
+
+</menu>
